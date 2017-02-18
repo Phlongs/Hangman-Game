@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<title>Hangman - Westworld!</title>
+	</head>
+	<body>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Hangman!</h1>
+				<p>Westworld Edition</p>
+				
+				
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<p id="hmGame"></p>
+				<form name="gameForm">
+					<p>Guess Letter: <input name="guessL" type="text" size="5" maxlength="1">
+					<input name="ratebutton" type="button" value="Submit" onClick="letterGuess()"></p>
+					<p id="wrongL">Wrong Letters:</p>
+					<img src="assets/images/hangman0.png" id="hangman"><br />
+					<input name="refresh" type="button" value="New Game" onClick="location.reload()">
+				</form>
+				<div class="panel panel-default">
+					<div class="panel-body">
+					<div id="winloss" class="row">
+						<p id="win">Wins: 0</p>
+						<p id="loss">Losses: 0</p>
+						<p id="attempt">Attempts: 6</p>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<audio id="music" loop src="assets/media/exit.mp3" autoplay> </audio>
+		
+				
+		
+		<script type="text/javascript" src="assets/js/main.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+		</script>
+	</body>
+</html>

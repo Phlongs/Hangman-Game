@@ -1,0 +1,56 @@
+.jumbotron {
+	
+	width: 50%;
+	height: 190px;
+	margin: auto;
+	margin-top: 5px;
+	text-align: center;
+	background: #000 url("../images/westworld.jpg");
+	background-size: cover;
+	overflow: hidden;
+	
+	
+}
+.jumbotron p {
+	font-family: 'Mr Dafoe', cursive;
+	color: #6e909b;
+	font-size: 30px;
+	text-shadow: 1px 1px 2px black, 0 0 25px #ff00ff;
+	margin-top: -15px;
+	
+}
+
+.jumbotron h1 {
+	
+	font-family: 'Monoton', cursive;
+	color: #6e909b;
+	font-size: 80px;
+	font-weight: bolder;
+	text-shadow: 1px 1px 2px black, 0 0 25px #ff00ff;
+
+	
+}
+
+.jumbotron {
+    border-radius: 6px;
+}
+
+.jumbotron button {
+	background-color: black;
+	color: white;
+}
+
+.panel.panel-default {
+	width: 50%;
+	margin: auto;
+	margin-top: 5px;
+	
+
+
+
+}
+
+body {
+	text-align: center;
+	background: #000004;
+}
